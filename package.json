@@ -1,0 +1,20 @@
+{
+  "name": "knights_journey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/nantachai_sangadsri.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/nantachai_sangadsri.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
