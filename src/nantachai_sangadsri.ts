@@ -99,6 +99,7 @@ function getMinMove(
         } catch (error) {}
       });
     });
+    if (!!newNode) break;
     // console.table(board);
     currentNode = newNode;
   }
